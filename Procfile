@@ -1,1 +1,1 @@
-worker: java -jar JMusicBot.java -nogui
+worker: java -java JMusicBot.java -nogui
