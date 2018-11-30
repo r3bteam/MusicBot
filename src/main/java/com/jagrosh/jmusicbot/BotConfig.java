@@ -81,7 +81,7 @@ public class BotConfig
             prompt.alert(Prompt.Level.INFO, CONTEXT, "Loading config from "+path.toAbsolutePath().toString());
             
             // set values
-            token = config.getString("token");
+            token = config.getString("NTE4MTcxNzA3NjYwNTY2NTU4.DuM4qg.LjuXHmDqAW-6nkfYQfU9-ElpXrg");
             prefix = config.getString("prefix");
             altprefix = config.getString("altprefix");
             helpWord = config.getString("help");
@@ -106,7 +106,7 @@ public class BotConfig
             List<String> lines = new LinkedList<>();
 
             // validate bot token
-            if(token==null || token.isEmpty() || token.equalsIgnoreCase("BOT_TOKEN_HERE"))
+            if(token==null || token.isEmpty() || token.equalsIgnoreCase("NTE4MTcxNzA3NjYwNTY2NTU4.DuM4qg.LjuXHmDqAW-6nkfYQfU9-ElpXrg`"))
             {
                 token = prompt.prompt("Please provide a bot token."
                         + "\nInstructions for obtaining a token can be found here:"
